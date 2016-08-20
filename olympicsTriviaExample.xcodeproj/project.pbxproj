@@ -16,6 +16,7 @@
 		1A0BC96A1D69017D0041050E /* olympicsTriviaExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BC9691D69017D0041050E /* olympicsTriviaExampleUITests.swift */; };
 		1A0BC9781D6913860041050E /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0BC9771D6913860041050E /* gold.png */; };
 		1A0BC97A1D6918490041050E /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A0BC9791D6918490041050E /* questions.json */; };
+		1A0BC97C1D691EE60041050E /* triviaQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A0BC97B1D691EE60041050E /* triviaQuestions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1A0BC96B1D69017D0041050E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0BC9771D6913860041050E /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
 		1A0BC9791D6918490041050E /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		1A0BC97B1D691EE60041050E /* triviaQuestions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = triviaQuestions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				1A0BC9501D69017D0041050E /* Assets.xcassets */,
 				1A0BC9771D6913860041050E /* gold.png */,
 				1A0BC9791D6918490041050E /* questions.json */,
+				1A0BC97B1D691EE60041050E /* triviaQuestions.json */,
 				1A0BC9521D69017D0041050E /* LaunchScreen.storyboard */,
 				1A0BC9551D69017D0041050E /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 				1A0BC9541D69017D0041050E /* LaunchScreen.storyboard in Resources */,
 				1A0BC9781D6913860041050E /* gold.png in Resources */,
 				1A0BC9511D69017D0041050E /* Assets.xcassets in Resources */,
+				1A0BC97C1D691EE60041050E /* triviaQuestions.json in Resources */,
 				1A0BC94F1D69017D0041050E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

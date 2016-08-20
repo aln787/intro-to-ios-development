@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     func readJson() {
         //Call this function `readJson()` at the bottom of viewdid load
-        let questionsUrl = NSBundle.mainBundle().URLForResource("questions", withExtension: "json")
+        let questionsUrl = NSBundle.mainBundle().URLForResource("triviaQuestions", withExtension: "json")
         let jsonData = NSData(contentsOfURL: questionsUrl!)
         
         do{
@@ -60,13 +60,21 @@ class ViewController: UIViewController {
     
     func parseRelevantJson(jsonObject: [String: AnyObject]) -> [Dictionary<String, String>] {
         var triviaPairs = [Dictionary<String, String>]()
-        guard let questionPairs = jsonObject["clues"] as? [[String: String]] else {return [[:]]}
+        guard let questionPairs = jsonObject["clues"] as? [[String: AnyObject]] else {return [[:]]}
         
         for questionPair in questionPairs {
-            triviaPairs.append(questionPair)
+            var pair = [String: String]()
+            if let question = questionPair["question"] as? String {
+                pair["question"] = question
+            }
+            if let answer = questionPair["answer"] as? String {
+                pair["answer"] = answer
+            }
+            triviaPairs.append(pair)
         }
         return triviaPairs
     }
+
     
     @IBAction func nextQuestion(sender: AnyObject) {
         updateQuestionPair(questionPairs)
