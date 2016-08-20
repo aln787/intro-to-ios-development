@@ -14,6 +14,7 @@
 		1A0BC9541D69017D0041050E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0BC9521D69017D0041050E /* LaunchScreen.storyboard */; };
 		1A0BC95F1D69017D0041050E /* olympicsTriviaExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BC95E1D69017D0041050E /* olympicsTriviaExampleTests.swift */; };
 		1A0BC96A1D69017D0041050E /* olympicsTriviaExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BC9691D69017D0041050E /* olympicsTriviaExampleUITests.swift */; };
+		1A0BC9781D6913860041050E /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0BC9771D6913860041050E /* gold.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1A0BC9651D69017D0041050E /* olympicsTriviaExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olympicsTriviaExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0BC9691D69017D0041050E /* olympicsTriviaExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olympicsTriviaExampleUITests.swift; sourceTree = "<group>"; };
 		1A0BC96B1D69017D0041050E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0BC9771D6913860041050E /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				1A0BC94B1D69017D0041050E /* ViewController.swift */,
 				1A0BC94D1D69017D0041050E /* Main.storyboard */,
 				1A0BC9501D69017D0041050E /* Assets.xcassets */,
+				1A0BC9771D6913860041050E /* gold.png */,
 				1A0BC9521D69017D0041050E /* LaunchScreen.storyboard */,
 				1A0BC9551D69017D0041050E /* Info.plist */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0BC9541D69017D0041050E /* LaunchScreen.storyboard in Resources */,
+				1A0BC9781D6913860041050E /* gold.png in Resources */,
 				1A0BC9511D69017D0041050E /* Assets.xcassets in Resources */,
 				1A0BC94F1D69017D0041050E /* Main.storyboard in Resources */,
 			);
