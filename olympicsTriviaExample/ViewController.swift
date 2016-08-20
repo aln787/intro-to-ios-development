@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
     var imageView: UIImageView!
     var screenSize: CGRect = UIScreen.mainScreen().bounds
+    var questionPairs = [[String:String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,8 @@ class ViewController: UIViewController {
         imageView.frame = CGRect(x: (screenSize.width / 2) - 50, y: 0, width: 100, height: 200)
         imageView.contentMode = UIViewContentMode.ScaleAspectFit
         view.addSubview(imageView)
+        
+        readJson()
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,6 +40,35 @@ class ViewController: UIViewController {
             self.imageView.frame = CGRect(x: self.imageView.frame.origin.x, y: self.screenSize.height - 100, width: self.imageView.frame.height, height: self.imageView.frame.width)
         }
     }
+    
+    func readJson() {
+        //Call this function `readJson()` at the bottom of viewdid load
+        let questionsUrl = NSBundle.mainBundle().URLForResource("questions", withExtension: "json")
+        let jsonData = NSData(contentsOfURL: questionsUrl!)
+        
+        do{
+            let jsonObject = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: .AllowFragments)
+            if let jsonDict = jsonObject as? [String: AnyObject] {
+                //Add an empty class variable `var questionPairs = [[String:String]]()` at the top of this class
+                questionPairs = parseRelevantJson(jsonDict)
+                print(questionPairs)
+            }
+        } catch {
+            print("An error occured")
+        }
+    }
+    
+    func parseRelevantJson(jsonObject: [String: AnyObject]) -> [Dictionary<String, String>] {
+        var triviaPairs = [Dictionary<String, String>]()
+        guard let questionPairs = jsonObject["clues"] as? [[String: String]] else {return [[:]]}
+        
+        for questionPair in questionPairs {
+            triviaPairs.append(questionPair)
+        }
+        return triviaPairs
+    }
+    
+
 
 }
 
