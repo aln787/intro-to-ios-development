@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,48 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olympicRings" translatesAutoresizingMaskIntoConstraints="NO" id="58X-eV-cbY">
+                                <rect key="frame" x="20" y="28" width="560" height="269"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="269" id="9YZ-SF-07L"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After the 1992 Winter Games in Albertville, France, the next Winter Games will be held in this year" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tds-qm-hP8">
+                                <rect key="frame" x="20" y="305" width="560" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olympics Trivia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJ9-C5-YXw">
+                                <rect key="frame" x="247" y="28" width="117" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gwJ-hC-YRc"/>
+                                    <constraint firstAttribute="width" constant="117" id="nYA-JK-TyM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="58X-eV-cbY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6o9-1W-iXO"/>
+                            <constraint firstItem="SJ9-C5-YXw" firstAttribute="leading" secondItem="58X-eV-cbY" secondAttribute="trailing" constant="-333" id="AIV-E1-Whi"/>
+                            <constraint firstItem="58X-eV-cbY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="H4H-ES-ryI"/>
+                            <constraint firstItem="Tds-qm-hP8" firstAttribute="top" secondItem="58X-eV-cbY" secondAttribute="bottom" constant="8" id="Hkw-vY-IO7"/>
+                            <constraint firstItem="Tds-qm-hP8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TrG-sy-wHk"/>
+                            <constraint firstItem="58X-eV-cbY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="alu-hw-bCj"/>
+                            <constraint firstItem="SJ9-C5-YXw" firstAttribute="centerX" secondItem="58X-eV-cbY" secondAttribute="centerX" constant="5.5" id="fYp-IG-tjq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tds-qm-hP8" secondAttribute="bottom" priority="750" constant="213" id="rtV-9G-zvo"/>
+                            <constraint firstItem="Tds-qm-hP8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="t9R-yL-VwU"/>
+                            <constraint firstItem="SJ9-C5-YXw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="u7q-dN-Csc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="AIV-E1-Whi"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -24,4 +66,7 @@
             <point key="canvasLocation" x="440" y="429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="olympicRings" width="1024" height="497"/>
+    </resources>
 </document>
