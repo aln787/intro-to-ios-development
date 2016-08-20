@@ -50,6 +50,9 @@
                                     <constraint firstAttribute="width" constant="57" id="rob-1j-1Th"/>
                                 </constraints>
                                 <state key="normal" title="Answer"/>
+                                <connections>
+                                    <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Byr-ap-Bfs"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1994" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qul-bd-VqR">
                                 <rect key="frame" x="20" y="433" width="560" height="82"/>
@@ -85,6 +88,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="Qul-bd-VqR" id="MHC-nn-aBr"/>
+                        <outlet property="questionLabel" destination="Tds-qm-hP8" id="GQ5-KD-FwQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
