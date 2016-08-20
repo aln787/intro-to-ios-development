@@ -68,6 +68,18 @@ class ViewController: UIViewController {
         return triviaPairs
     }
     
+    @IBAction func nextQuestion(sender: AnyObject) {
+        updateQuestionPair(questionPairs)
+    }
+    
+    func updateQuestionPair(fullQuestionList: [Dictionary<String, String>]) {
+        let numberOfQuestions: UInt32 = UInt32(fullQuestionList.count)
+        let random = Int(arc4random_uniform(numberOfQuestions))
+        let nextQuestion = fullQuestionList[random]
+        questionLabel.text = nextQuestion["question"]
+        answerLabel.hidden = true
+        answerLabel.text = nextQuestion["answer"]
+    }
 
 
 }

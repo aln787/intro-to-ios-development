@@ -65,6 +65,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Qul-bd-VqR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6Jc-8C-mc3"/>
                             <constraint firstItem="58X-eV-cbY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6o9-1W-iXO"/>
@@ -87,6 +88,9 @@
                                 <exclude reference="AIV-E1-Whi"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="RBR-2n-06p" appends="YES" id="mZf-ud-Vnz"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="Qul-bd-VqR" id="MHC-nn-aBr"/>
@@ -94,6 +98,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="RBR-2n-06p">
+                    <connections>
+                        <action selector="nextQuestion:" destination="BYZ-38-t0r" id="v1u-0f-weW"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="440" y="429"/>
         </scene>
