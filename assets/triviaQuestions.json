@@ -1,0 +1,456 @@
+{
+  "id": 311,
+  "title": "the olympics",
+  "clues_count": 50,
+  "clues": [{
+    "id": 1961,
+    "answer": "diving",
+    "question": "This competition is divided into springboard \u0026 platform events",
+    "value": 100,
+    "airdate": "1987-06-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 1967,
+    "answer": "Romania",
+    "question": "Ecaterina Szabo led this country's women's gymnastics team to the gold in the 1984 games",
+    "value": 200,
+    "airdate": "1987-06-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 1973,
+    "answer": "horseback riding (equestrian)",
+    "question": "Competition whose events include team 3-day event \u0026 individual jumping",
+    "value": 300,
+    "airdate": "1987-06-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 1979,
+    "answer": "the XXIV",
+    "question": "Number of the Olympiad whose games will be held in the summer of 1988",
+    "value": 400,
+    "airdate": "1987-06-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 1985,
+    "answer": "8",
+    "question": "Number of oars used by one crew in the rowing event which uses the most oars",
+    "value": 500,
+    "airdate": "1987-06-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 4707,
+    "answer": "(Greg) Louganis",
+    "question": "In 1984 he became the 1st man since 1928 to win both the platform \u0026 springboard diving events",
+    "value": 100,
+    "airdate": "1989-02-01T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 4713,
+    "answer": "Jesse Owens",
+    "question": "[Video Daily Double]     Seen here, he set Olympic records in the broad jump \u0026 the 200 meter run:",
+    "value": null,
+    "airdate": "1989-02-01T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 4719,
+    "answer": "chariot race",
+    "question": "This type of equestrian race was added to the ancient games in 680 B.C.",
+    "value": 300,
+    "airdate": "1989-02-01T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 4725,
+    "answer": "1994",
+    "question": "After the 1992 Winter Games in Albertville, France, the next Winter Games will be held in this year",
+    "value": 400,
+    "airdate": "1989-02-01T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 4731,
+    "answer": "Johnny Weissmuller",
+    "question": "Competing in the 1924 \u0026 '28 games, this U.S. swimmer won a total of 5 gold medals",
+    "value": 500,
+    "airdate": "1989-02-01T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 5878,
+    "answer": "Greece",
+    "question": "Fittingly, this country was the site of the first modern Olympics in 1896",
+    "value": 100,
+    "airdate": "1990-04-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 5884,
+    "answer": "Babe Didrikson Zaharias",
+    "question": "In 1932, when women could enter only 3 events, this American woman won 3 medals",
+    "value": 200,
+    "airdate": "1990-04-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 5890,
+    "answer": "Jim Thorpe",
+    "question": "In 1912 this Native American won the decathlon \u0026 pentathlon",
+    "value": 300,
+    "airdate": "1990-04-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 5896,
+    "answer": "Skiing",
+    "question": "In 1948 Gretchen Fraser became the first American to win a gold medal in this winter sport",
+    "value": 400,
+    "airdate": "1990-04-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 5902,
+    "answer": "Weightlifting",
+    "question": "In 1972 Vassili Alexeyev, known as the \"Russian Bear\", won his 1st Olympic gold medal in this sport",
+    "value": 500,
+    "airdate": "1990-04-23T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 11406,
+    "answer": "an archer",
+    "question": "In the opening ceremonies of the 1992 Summer Games, one of these athletes ignited the Olympic flame",
+    "value": 100,
+    "airdate": "1992-09-28T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 11412,
+    "answer": "the pole vault",
+    "question": "In 1988 Sergei Bubka became the 1st Olympic champion to exceed 19 feet in this event",
+    "value": 200,
+    "airdate": "1992-09-28T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 11418,
+    "answer": "Jim Thorpe",
+    "question": "This American won both the pentathlon \u0026 decathlon in the 1912 Summer Olympics in Stockholm",
+    "value": 300,
+    "airdate": "1992-09-28T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 11424,
+    "answer": "Sonja Henie",
+    "question": "This Norwegian won the women's figure skating gold medal in 1928, 1932 \u0026 1936",
+    "value": 400,
+    "airdate": "1992-09-28T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 11430,
+    "answer": "Squaw Valley",
+    "question": "It's the only California site to host a Winter Olympics",
+    "value": 500,
+    "airdate": "1992-09-28T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14856,
+    "answer": "(men\\'s) basketball",
+    "question": "In 1992 the U.S. \"Dream Team\" defeated Croatia 117-85 to win the gold in this event",
+    "value": 100,
+    "airdate": "1995-10-06T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14862,
+    "answer": "decathlon",
+    "question": "The first competition in this event is the 100-meter dash; the tenth, the 1500-meter run",
+    "value": 200,
+    "airdate": "1995-10-06T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14868,
+    "answer": "floor exercise",
+    "question": "Women perform this gymnastics event to music; men, without music",
+    "value": 300,
+    "airdate": "1995-10-06T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14874,
+    "answer": "Dan Jansen",
+    "question": "In 1994 this American won the men's 1,000-meter speed skating event after finishing 8th at 500 meters",
+    "value": 400,
+    "airdate": "1995-10-06T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14880,
+    "answer": "Israel",
+    "question": "In 1992 Yael Arad won this Middle Eastern country's first Olympic medal -- a silver in women's judo",
+    "value": 500,
+    "airdate": "1995-10-06T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14980,
+    "answer": "Moscow",
+    "question": "Russian city where Nadia Comaneci  competed in her second Olympics",
+    "value": 100,
+    "airdate": "1995-09-04T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14986,
+    "answer": "Charles Barkley",
+    "question": "Nicknamed \"Sir Charles\", he was part of the gold-medal-winning 1992 U.S. \"Dream Team\"",
+    "value": 200,
+    "airdate": "1995-09-04T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14992,
+    "answer": "archery",
+    "question": "In this sport's individual event all 64 competitors shoot at targets 70 meters away at the same time",
+    "value": 300,
+    "airdate": "1995-09-04T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 14998,
+    "answer": "Jackie Joyner-Kersee",
+    "question": "At the 1984 L.A. games, she won a silver in the heptathlon \u0026 her brother Al, a gold in the triple jump",
+    "value": 400,
+    "airdate": "1995-09-04T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 15004,
+    "answer": "discus, javelin \u0026 shot put",
+    "question": "The 3 throwing events in the decathlon",
+    "value": 500,
+    "airdate": "1995-09-04T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 44408,
+    "answer": "Japan",
+    "question": "In 2000 marathon winner Naoko Takahashi became the first woman from this country to win a gold in track \u0026 field",
+    "value": 100,
+    "airdate": "2001-02-15T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 44414,
+    "answer": "Diving",
+    "question": "The platform in this event is 10 meters or 33 feet above the water",
+    "value": 200,
+    "airdate": "2001-02-15T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 44420,
+    "answer": "Katarina Witt",
+    "question": "The first female figure skater since Sonja Henie to repeat as Olympic champion was this German in 1988",
+    "value": 300,
+    "airdate": "2001-02-15T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 44426,
+    "answer": "Lillehammer, Norway",
+    "question": "The opening ceremony for the 1994 Winter Olympics in this city was conducted by King Harald V",
+    "value": null,
+    "airdate": "2001-02-15T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 44432,
+    "answer": "Paavo Nurmi",
+    "question": "At the opening of the 1952 Helsinki games, this winner of 9 gold medals carried the torch into the main stadium",
+    "value": 500,
+    "airdate": "2001-02-15T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 48008,
+    "answer": "cricket",
+    "question": "The only Olympic tournament in this sticky wicket sport was at the 1900 Games \u0026, of course, Great Britain won",
+    "value": 200,
+    "airdate": "2002-07-09T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 48014,
+    "answer": "Mark McGwire",
+    "question": "(Sofia is at the National Baseball Hall of Fame and Museum in Cooperstown, New York.) This ex-St. Louis first baseman wore this jersey in the 1984 Olympic Games; baseball was just a demonstration sport",
+    "value": 400,
+    "airdate": "2002-07-09T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 48020,
+    "answer": "the skeleton",
+    "question": "A special event at the 1928 \u0026 1948 Winter Games, this bare-bones sled slid back to the Games in 2002",
+    "value": 600,
+    "airdate": "2002-07-09T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 48026,
+    "answer": "Germany",
+    "question": "At the 2002 Winter Games, this country edged out the U.S. for the most total medals",
+    "value": 800,
+    "airdate": "2002-07-09T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 48032,
+    "answer": "Mark Spitz",
+    "question": "At the 1972 Munich Olympics, he won the 100-meter \u0026 200-meter butterfly events, among others",
+    "value": 1000,
+    "airdate": "2002-07-09T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 68794,
+    "answer": "Jim Thorpe",
+    "question": "At the 1912 Stockholm Games Gustav V told this U.S. athlete, \"Sir, you are the greatest athlete in the world\"",
+    "value": 200,
+    "airdate": "2004-10-07T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 68800,
+    "answer": "Norway",
+    "question": "Bjorn Daehlie of this country has won a record 12 Winter Olympic medals, all for cross-country skiing",
+    "value": 400,
+    "airdate": "2004-10-07T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 68806,
+    "answer": "the pommel horse",
+    "question": "For men in the Olympics, this is 115 centimeters high \u0026 has a couple of handles on top",
+    "value": 600,
+    "airdate": "2004-10-07T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 68812,
+    "answer": "Greco-Roman wrestling",
+    "question": "One difference between this hyphenated sport \u0026 freestyle is that opponents can't grasp or use the legs in a fall",
+    "value": null,
+    "airdate": "2004-10-07T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 68818,
+    "answer": "coxswain",
+    "question": "The youngest competitor at the 1992 Barcelona games was an 11-year-old who did this job in a shell",
+    "value": 1000,
+    "airdate": "2004-10-07T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 86645,
+    "answer": "fencing",
+    "question": "Epee, foil \u0026 saber are the 3 types of weapons in this competition",
+    "value": 200,
+    "airdate": "2008-02-21T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 86651,
+    "answer": "Moscow",
+    "question": "The controversial 1980 Summer Olympics were held in this capital city",
+    "value": 400,
+    "airdate": "2008-02-21T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 86657,
+    "answer": "kilometers",
+    "question": "The longest race in the Summer Olympics is a walk of 50 of these metric units",
+    "value": 600,
+    "airdate": "2008-02-21T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 86663,
+    "answer": "half-pipe",
+    "question": "At the 2006 Winter Olympics, Shaun White took gold in this snowboarding competition",
+    "value": 800,
+    "airdate": "2008-02-21T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }, {
+    "id": 86669,
+    "answer": "dressage",
+    "question": "The name of this equestrian event means \"taming\" or \"training\" in French",
+    "value": 1000,
+    "airdate": "2008-02-21T12:00:00.000Z",
+    "category_id": 311,
+    "game_id": null,
+    "invalid_count": null
+  }]
+}
