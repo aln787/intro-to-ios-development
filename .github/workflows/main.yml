@@ -4,7 +4,6 @@ on: [push, repository_dispatch]
 jobs:
   test_job:
     runs-on: macOS-latest
-    strategy: 
     name: A job to test the GitHub fastlane action
     steps:
     - uses: actions/checkout@v1
