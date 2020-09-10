@@ -1,3 +1,17 @@
-uses: maierj/fastlane-action@v1.4.0
-with:
-  lane: 'beta'
+name: 'Fastlane action test'
+on: [push, repository_dispatch]
+
+jobs:
+  test_job:
+    runs-on: macOS-latest
+    strategy: 
+    name: A job to test the GitHub fastlane action
+    steps:
+    - uses: actions/checkout@v1
+    - name: Fastlane step (root directory)
+      uses: maierj/fastlane-action@development
+      with:
+        lane: 'beta'
+      env:
+        ENV_VARIABLE_1: VALUE_1
+        ENV_VARIABLE_2: VALUE_2
