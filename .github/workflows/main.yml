@@ -14,3 +14,10 @@ jobs:
       env:
         ENV_VARIABLE_1: VALUE_1
         ENV_VARIABLE_2: VALUE_2
+    - name: view files
+      run: lake -lah
+    - name: Archive code coverage results
+      uses: actions/upload-artifact@v2
+      with:
+        name: code-coverage-report
+        path: output/test/code-coverage.html
