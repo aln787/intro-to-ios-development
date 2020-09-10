@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         imageView = UIImageView(image: image!)
         
         imageView.frame = CGRect(x: (screenSize.width / 2) - 50, y: 0, width: 100, height: 200)
-        imageView.contentMode = UIViewContentMode.scaleAspectFit
+        imageView.contentMode = UIView.ContentMode.scaleAspectFit
         view.addSubview(imageView)
         
         readJson()
@@ -85,7 +85,9 @@ class ViewController: UIViewController {
         let nextQuestion = fullQuestionList[random]
         questionLabel.text = nextQuestion["question"]
         answerLabel.text = nextQuestion["answer"]
-        answerLabel.isHidden = !answerLabel.isHidden
+        DispatchQueue.main.async {
+            self.answerLabel.isHidden = true
+        }
     }
 
 

@@ -202,13 +202,16 @@
 				TargetAttributes = {
 					1A0BC9451D69017D0041050E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1130;
 					};
 					1A0BC9591D69017D0041050E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = 1A0BC9451D69017D0041050E;
 					};
 					1A0BC9641D69017D0041050E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = 1A0BC9451D69017D0041050E;
 					};
 				};
@@ -442,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niderberg.olympicsTriviaExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -453,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niderberg.olympicsTriviaExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -464,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niderberg.olympicsTriviaExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olympicsTriviaExample.app/olympicsTriviaExample";
 			};
 			name = Debug;
@@ -476,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niderberg.olympicsTriviaExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olympicsTriviaExample.app/olympicsTriviaExample";
 			};
 			name = Release;
@@ -487,6 +494,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niderberg.olympicsTriviaExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = olympicsTriviaExample;
 			};
 			name = Debug;
@@ -498,6 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niderberg.olympicsTriviaExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = olympicsTriviaExample;
 			};
 			name = Release;
