@@ -10,7 +10,7 @@ jobs:
     - name: Fastlane step (root directory)
       uses: maierj/fastlane-action@development
       with:
-        lane: 'beta'
+        lane: 'test'
       env:
         ENV_VARIABLE_1: VALUE_1
         ENV_VARIABLE_2: VALUE_2
